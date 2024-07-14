@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+}
+nav ul li {
+    float: left;
+}
+.container{
+    max-width: 1000px;
+    margin: 60px 550px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y:scroll; /* Επιτρέπει την κύλιση */
+    max-height: 40vh;
+    position: fixed;
+    text-align: center;
+}
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #111;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.errors, .success {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.errors {
+    background-color: #f2dede;
+    color: #a94442;
+}
+.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-bottom: 5px;
+}
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #4cae4c;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

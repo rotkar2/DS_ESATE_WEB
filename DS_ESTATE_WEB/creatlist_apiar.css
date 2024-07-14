@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    nav ul li {
+        float: left;
+    
+    }
+    
+    nav ul li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+        background-color: #111;
+    }
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y:scroll; /* Επιτρέπει την κύλιση */
+    max-height: 40vh;
+    position: fixed;
+    text-align: center;
+
+}
+form label {
+    display: block;
+    margin-top: 10px;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+}
